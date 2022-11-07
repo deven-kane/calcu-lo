@@ -1,0 +1,30 @@
+.PanelSpacer {
+  height: 2rem;
+  display: flex;
+  margin: 0.3rem 0.5rem;
+  justify-content: space-between;
+}
+
+.Brand {
+  color: white;
+  font-size: 0.55rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SolarPanel {
+  border: 0.1rem solid #242526;
+  border-radius: 3px;
+  background: radial-gradient(ellipse at top, #b040405b, transparent),
+    radial-gradient(ellipse at bottom, #4e9f0c4a, transparent);
+  background-color: #2d2924;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+  /* border: 1px solid red; */
+  height: 1.5rem;
+  width: 6rem;
+}
