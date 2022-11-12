@@ -1,5 +1,6 @@
 import './ButtonContainer.css';
-import Operand from './Operand/Operand.jsx';
+import Operand from './Operand/Operand';
+import Operator from './Operator/Operator';
 
 const OPERANDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 function ButtonContainer({total, setTotal}) {
