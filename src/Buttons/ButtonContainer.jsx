@@ -3,7 +3,9 @@ import Operand from './Operand/Operand';
 import Operator from './Operator/Operator';
 
 const OPERATORS = ['+', '-', '/', '*', '.', '='];
+// prettier-ignore
 const buttonLayout = ['7',  '8',  '9',  '+',  '4',  '5',  '6',  '-',  '1',  '2',  '3',  '/',  '.',  '0',  '=',  '*'];
+
 function isOperator(currElement) {
   return OPERATORS.includes(currElement);
 }
