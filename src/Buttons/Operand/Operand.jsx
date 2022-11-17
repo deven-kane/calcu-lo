@@ -1,13 +1,13 @@
 import './Operand.css';
 
-function Operand({total, setTotal}) {
+function Operand({total, setTotal, operand}) {
   function handleClick() {
-    setTotal(total + 1);
+    setTotal(total + parseInt(operand));
   }
 
   return (
     <button onClick={handleClick} className="SquareButton">
-      1
+      {operand}
     </button>
   );
 }
