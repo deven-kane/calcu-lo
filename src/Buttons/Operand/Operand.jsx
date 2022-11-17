@@ -2,7 +2,7 @@ import './Operand.css';
 
 function Operand({total, setTotal, operand}) {
   function handleClick() {
-    setTotal(total + 1);
+    setTotal(total + parseInt(operand));
   }
 
   return (
