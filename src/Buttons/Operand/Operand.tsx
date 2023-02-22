@@ -1,6 +1,10 @@
 import './Operand.css';
+import { Button } from '../ButtonContainer'
 
-function Operand({total, setTotal, operand}: {total: number, setTotal: (arg: number) => void, operand: string}) {
+export type OperandChar = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+
+
+function Operand({total, setTotal, operand}: {total: number, setTotal: (arg: number) => void, operand: Button}) {
   function handleClick() {
     setTotal(total);
   }
